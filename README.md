@@ -4,7 +4,7 @@ Simple shell script which allows a user to easily and conveniently install packa
 
 ## Pre-configuration.
 
-To use the script, we will first need to replace `[this]` with `environment.systemPackages = import /etc/nixos/packages.nix pkgs;` in `configuration.nix`. This will allow packages to be installed directly to a seperate file which is then referenced by your primary configuration file. This has been done to prevent any unforseen harm from being done to your main configuration file by the script provided. Though, a simple alternation may be made to instead reference `configuration.nix` pointing to the corresponding line where packages are added.
+To use the script, we will first need to replace line 102 with `environment.systemPackages = import /etc/nixos/packages.nix pkgs;` in `configuration.nix`. This will allow packages to be installed directly to a seperate file which is then referenced by your primary configuration file. This has been done to prevent any unforseen harm from being done to your main configuration file by the script provided. Though, a simple alternation may be made to instead reference `configuration.nix` pointing to the corresponding line where packages are added.
 
 To get started:
 
