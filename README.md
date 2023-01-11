@@ -8,19 +8,25 @@ To use the script, we will first need to replace `[this]` with `environment.syst
 
 To get started:
 
-```sudo nano /etc/nixos/configuration.nix```
+```
+sudo nano /etc/nixos/configuration.nix
+```
 
 Replace the 102nd line with ` environment.systemPackages = import /etc/nixos/packages.nix pkgs` and save.
 
 
-```sudo touch /etc/nixos/packages.nix
-sudo nano /etc/nixos/packages.nix```
+```
+sudo touch /etc/nixos/packages.nix
+sudo nano /etc/nixos/packages.nix
+```
 
 Once done then add the following to `packages.nix`.
 
-```pkgs: with pkgs; [
+```
+pkgs: with pkgs; [
   #the name of your package of choice.
-]```
+]
+```
 
 ## Configuration.
 
