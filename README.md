@@ -32,7 +32,7 @@ pkgs: with pkgs; [
 
 The script in its current iteration is as [follows](https://github.com/Maholmire/Quick-Nix/blob/main/install.sh). Whether you may use a different shell or want to live on the wild side and apply the script to your main `configuration.nix`, now would be the opportunity for you to make a couple of changes to better suit your needs. By default, the script is set to work for bash, though if you happen to use zsh, fish or another shell then you may want to follow along. use `which` and the name of the shell you are using to get the $PATH where it resides. Use your preferred editor to edit the command and change the top entry from `#! /run/current-system/sw/bin/bash` to the path you retrieved. To change the script and reference your `configuration.nix` instead replace "*`packages.nix`*" with "*`configuration.nix`*" and "*`2i`*" with "*`105i`*" on line two of the script.
 
-Once done, download the script and place it somewhere it is unlikely to be deleted. Run `chmod u+x install.sh` then add an alias with `alias alias="$SHELL $HOME/place/where/you/put/it"` and finally add the $PATH `export PATH=$HOME/place/where/you/put/it` to your .bashrc or a similiar file.
+Once done and place the script somewhere it is unlikely to be deleted. Run `chmod u+x install.sh` then add an alias with `alias alias="$SHELL $HOME/place/where/you/put/it"` and finally add the $PATH `export PATH=$HOME/place/where/you/put/it` to your .bashrc or a similiar file.
 
 ## Usage.
 
