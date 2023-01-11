@@ -12,7 +12,7 @@ To get started:
 sudo nano /etc/nixos/configuration.nix
 ```
 
-Replace the 102nd line with ` environment.systemPackages = import /etc/nixos/packages.nix pkgs` and save.
+Replace the 102nd line with ` environment.systemPackages = import /etc/nixos/packages.nix pkgs` removing the bracket `]` at the end down below `[` before saving.
 
 
 ```
