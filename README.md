@@ -36,7 +36,7 @@ Once dpne, download the script and place it somewhere it is unlikely to be delet
 
 ## Usage.
 
-Assuming you've got everything working up until this point, simply run `install` with your desired package to append it to your 'configuration.nix` or 'packages.nix` and start `sudo nixos-rebuild switch` to update to the next generation including the installed package.
+Assuming you've got everything working up until this point, simply run `install` with your desired package to append it to your `configuration.nix` or 'packages.nix` and start `sudo nixos-rebuild switch` to update to the next generation including the installed package.
 
 ###### Drawbacks.
 
